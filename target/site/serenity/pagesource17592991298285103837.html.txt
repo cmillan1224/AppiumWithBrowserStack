@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><AppiumAUT><XCUIElementTypeApplication type="XCUIElementTypeApplication" name="Duolingo" label="Duolingo" enabled="true" visible="true" accessible="false" x="0" y="0" width="430" height="932" index="0">
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="true" accessible="false" x="0" y="0" width="430" height="932" index="0">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="430" height="932" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="0" y="0" width="430" height="932" index="0">
+        <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="75" width="45" height="22" index="0">
+          <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="75" width="45" height="22" index="0">
+            <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="true" accessible="false" x="16" y="75" width="25" height="22" index="0"/>
+          </XCUIElementTypeOther>
+        </XCUIElementTypeOther>
+        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="Looks like your account was created with Google!" name="Looks like your account was created with Google!" label="Looks like your account was created with Google!" enabled="true" visible="true" accessible="true" x="16" y="331" width="398" height="60" index="1"/>
+        <XCUIElementTypeImage type="XCUIElementTypeImage" enabled="true" visible="true" accessible="false" x="167" y="430" width="96" height="97" index="2"/>
+        <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="cristianjhoan49@gmail.com" name="cristianjhoan49@gmail.com" label="cristianjhoan49@gmail.com" enabled="true" visible="true" accessible="true" x="16" y="550" width="398" height="23" index="3"/>
+        <XCUIElementTypeButton type="XCUIElementTypeButton" name="SIGN IN WITH GOOGLE" label="SIGN IN WITH GOOGLE" enabled="true" visible="true" accessible="true" x="16" y="834" width="398" height="48" index="4">
+          <XCUIElementTypeStaticText type="XCUIElementTypeStaticText" value="SIGN IN WITH GOOGLE" name="SIGN IN WITH GOOGLE" label="SIGN IN WITH GOOGLE" enabled="true" visible="true" accessible="false" x="142" y="845" width="182" height="21" index="0"/>
+        </XCUIElementTypeButton>
+      </XCUIElementTypeOther>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+  <XCUIElementTypeWindow type="XCUIElementTypeWindow" enabled="true" visible="false" accessible="false" x="0" y="0" width="430" height="932" index="1">
+    <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="430" height="932" index="0">
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="0" width="430" height="932" index="0"/>
+      <XCUIElementTypeOther type="XCUIElementTypeOther" enabled="true" visible="false" accessible="false" x="0" y="932" width="430" height="243" index="1"/>
+    </XCUIElementTypeOther>
+  </XCUIElementTypeWindow>
+</XCUIElementTypeApplication></AppiumAUT>

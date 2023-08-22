@@ -10,7 +10,7 @@ import cucumber.api.java.en.When;
 import static net.serenitybdd.screenplay.GivenWhenThen.seeThat;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorCalled;
 import static net.serenitybdd.screenplay.actors.OnStage.theActorInTheSpotlight;
-import static org.hamcrest.CoreMatchers.equalTo;
+import static org.hamcrest.CoreMatchers.*;
 
 public class DuolingoStepDefinitions {
 
@@ -27,6 +27,9 @@ public class DuolingoStepDefinitions {
 
     @Then("^you see your account screen$")
     public void youSeeYourAccountScreen() {
-        theActorInTheSpotlight().should(seeThat("Ya existe una cuenta", LoginQuestion.checkDescription() , equalTo("You already have an existing profile")));
+        theActorInTheSpotlight().should(
+                seeThat("Ya existe una cuenta", LoginQuestion.checkDescription() ,
+                        either(equalTo("You already have an existing profile"))
+                                .or(equalTo("Looks like your account was created with Google!"))));
     }
 }
